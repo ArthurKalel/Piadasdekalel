@@ -1,0 +1,543 @@
+* {
+    margin: 0 auto;
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+body, footer, iframe, .no-iframe {
+    width: 100%;
+}
+
+.sub-body, .marco0  {
+    width: 1400px;
+}
+
+header, nav, main {
+    width: 1200px;
+}
+
+.page  {
+    flex-direction: column;
+}
+
+header {
+    background-color: #0000cd;
+    height: 200px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    flex:35%;
+    height: 200px;
+    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(logopc.png);
+}
+
+.meio {
+    flex: 25%;
+    height: 200px;
+    background-color: #0000cd;
+    font-size: 30px;
+    color: #FFFE04;
+    text-decoration: none;
+}
+
+.meio a{
+    color: #FFFE04;
+    position: relative;
+    top:50%;
+    left: 50%;
+    Letter-spacing: 20px
+}
+
+.meio a:hover  {
+    color:#F70404;
+    cursor: pointer;
+}
+
+.direita {
+    flex: 40%;
+    height:200px;
+    flex-direction: column;
+    display: flex;
+}
+
+.english {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+    align-items: baseline;
+    flex: 25%;
+}
+
+.english:hover   {
+    text-decoration-line: underline;
+    font-size: 20px !important;
+}
+
+.botoes  {
+    flex: 20%;
+    background-color: #0000cd;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: #FFFE04;
+    align-items: start;
+    display: flex;
+}
+
+.botoes  a:hover  {
+    cursor: pointer;
+    font-size: 105%;
+}
+
+.english:hover   {
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+.vazio  {
+    width: 100%;
+    height: 100%;
+    flex:55%;
+}
+
+
+.dark {
+    color: black;
+    flex: 10%;
+}
+
+.light  {
+    flex: 10%;
+    color: white;
+}
+
+
+.pesquisa {
+    display: flex;
+    flex: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.caixa-busca  {
+    background-color: white;
+    border-radius: 40px;
+    height: 30px;
+    width: 450px;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 55px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.caixa-busca input {
+    height: 50px;
+    width: 400px;
+    border-radius:40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+
+.caixa-busca a {
+    color:#FFFE04;
+    float: right;
+    width: 10px;
+    height: 10px;
+}
+
+nav {
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+}
+
+.nav-mobile   {
+    display: none;
+}
+
+.categorias_1  {
+    display: none;
+    width: 0%;
+    height: 0%;
+}
+
+.fechar-menu    {
+    display:none;
+    height: 0px;
+    width: 0px;
+}
+
+nav div, .categorias_1 {
+    align-items: center;
+    width: 25%;
+    background-color: #F70404;
+}
+
+
+nav div:hover {
+    background-color: #0000cd;
+    cursor: pointer; /* aparece a mãozinha */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    Letter-spacing: 0.2px
+}
+
+nav a:hover {
+    color:#FFFE04;
+}
+
+nav button:hover {
+    background-color: #0000cd;
+}
+
+main, iframe, .no-iframe {
+    height: 5940px;
+    margin-top: 30px;
+}
+
+main  {
+    display: flex;
+}
+
+iframe  {
+    border: 0px;
+    flex: 80%;
+    flex-direction: column;
+    display: flex;
+    align-items: end;
+}
+
+.no-iframe  {
+    flex: 20%;
+    background-color: purple;
+}
+
+.page   {
+    width: 100%;
+    height: 5840px;
+    display: flex;
+    align-items: start;
+}
+
+.post, .titulo, .meme {
+    width:700px;
+}
+
+.post   {
+    height: 780px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    margin-right: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.titulo  {
+    flex: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.perfil  {
+    flex: 7.5%;
+    background-image: url(teste2.webp);
+    margin-top: 2px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #0000cd;
+    box-sizing: border-box;
+}
+
+.texto  {
+    flex: 92.5%;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.texto  h1{
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.meme   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    flex: 90%;
+}
+
+.meme  p {
+    font-size: 20px;
+    padding-right: 48%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.meme  img  {
+    width: 660px;
+    height:660px;
+    margin-top: 2px;
+}
+
+footer  {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    background-color: #0000cd;
+    margin-top: 50px;
+}
+
+.marco0  {
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer  div{
+    font-size: 20px;
+    color: white;
+}
+
+.anuncio-1  {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .sub-body, header, main, .marco0 {
+        width: 100%;
+    }
+
+    .sub-body  {
+        margin-bottom: 150px;
+    }
+
+    header {
+        flex-direction: row;
+        border-radius: 0px;
+        margin-top: 0px;
+        height: 80px;
+        box-sizing: border-box;
+    }
+
+    .logo, .meio, .direita  {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .logo  {
+        background-image: url(logophone.png);
+        flex: 43.5%;
+        background-color: #0000cd;
+    }
+    
+    .meio   {
+        flex: 0.5%;
+        display: none
+    }
+
+    .direita  {
+        flex: 56%;
+        flex-direction: row;
+    }
+
+    .botoes  {
+        flex: 50%;
+        align-items: center;
+        display: flex;
+    }
+
+    .botoes  a{
+        padding: 20px 5px;
+        box-sizing: border-box;
+    }
+
+    .pesquisa   {
+        flex:50%;
+        color: #FFFE04;
+        flex-direction: row;
+        font-size: 30px;
+        background-color: #F70404;
+    }
+
+    .pesquisa i  {
+        display: flex !important;
+    }
+
+    .caixa-busca   {
+        width: 0px;
+        height: 0px;
+        padding-bottom: 0px;
+    }
+
+    .caixa-busca   i {
+        display: none !important;
+    }
+
+    .caixa-busca input  {
+        display: none;
+        margin-right: 50%;
+    }
+
+    .english {
+        display: none;
+    }
+
+    .Menu-hamburguer   {
+        cursor: pointer;
+    }
+    
+    nav {
+        display:none;
+        height: 100%;
+        width: 300px;
+        margin-top: 0px;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background-color: #0000cd;
+    }
+
+    .nav-mobile   {
+        height: 100%;
+        width: 300px;
+        margin-top: 0px;
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background-color: #0000cd;
+    }
+
+    .topo_cel   {
+        flex-direction:row !important;
+        border-bottom:solid red 3px;
+        height:100px;
+        display: block !important;
+    }
+
+    .fechar-menu  {
+        display: block;
+        background-color: black;
+        color: white;
+    }
+
+    .nav-mobile div  {
+        width: 100%;
+        height: 25%;
+        background-color: #0000cd;
+        /*
+        margin-right: -55%;
+        margin-top: -20px;
+        */
+    }
+
+    .categorias_1  {
+        display: block !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav  h1  {
+        color:#FFFE04;
+    }
+
+    nav a  {
+        color: white;
+        font-size: 40px;
+    }
+    
+    main   {
+        flex-direction: column-reverse;
+        display: block;
+    }
+
+    .no-iframe  {
+        width: 100%;
+        height: 50px;
+    }
+
+    main, iframe, .sub-body {
+        height: 4750px;
+        margin-top: 0px;
+    }
+
+    iframe  {
+        width: 100%;
+    }
+
+    .page  {
+        display:  flex;
+        align-items: center;
+        margin-left: 10px;
+        height: 4710px;
+    }
+
+    .post   {
+        height: 540px;
+        margin-top: 100px;
+        width: 94%;
+    }
+
+    .meme  img  {
+        width: 100%;
+        height: 400px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    .marco0   {
+        flex-direction: column;
+    }
+
+    .marco0  div  {
+        box-sizing: border-box;
+        padding: 10px 0px;
+    }
+
+    .marco0   img  {
+        display: none;
+    }
+
+    .anuncio-1    {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background-color: aqua;
+    }
+}
